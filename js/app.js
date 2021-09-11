@@ -1,6 +1,7 @@
 const color = document.getElementById("change-button");
 const textColor = document.getElementById("change-text");
 const body = document.body;
+const span = document.getElementById("text");
 
 function randomColor() {
   return Math.floor(Math.random() * 255);
@@ -17,5 +18,5 @@ function bgColor() {
   body.style.transition = "300ms all ease-in-out";
   body.style.background = rgbString;
   textColor.style.transition = "300ms all ease-in-out";
-  textColor.innerText = rgbString;
+  textColor.innerText = `${rgbString}`;
 }
