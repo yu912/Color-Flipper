@@ -5,6 +5,7 @@
 }
 
 .container {
+  letter-spacing: 10px !important;
   text-align: center;
   flex-direction: column;
   display: flex;
